@@ -1,0 +1,48 @@
+/* Css for pages */
+
+.top-background {
+    padding: 10em 1em 5em;
+    display: block;
+}
+
+.top-background .page-content {
+    background: rgba(0, 0, 0, 0.68);
+    padding: 1em;
+    text-align: left;
+    color: #fff;
+    /* word-break: break-all; */
+}
+
+.top-background .page-content a {
+    word-break: break-all;
+}
+
+#welcome.top-background {
+    height: auto;
+    min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+    .top-background .page-content {
+        padding: 3em;
+        display: table-cell;
+    }
+    .top-background .page-content .container.special-width {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .top-background {
+        padding: 20em 8em 5em;
+        display: table;
+    }
+    h1.not-found-page {
+        width: 50%;
+        margin: 0 auto;
+        color: #fff;
+        text-transform: none;
+        word-break: normal;
+        text-align: center;
+    }
+}

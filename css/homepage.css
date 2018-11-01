@@ -1,0 +1,353 @@
+/* Css code for the homepage */
+
+.top-background {
+    background-image: url('../images/backgroundhpmob.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    width: 100%;
+    height: 100vh;
+    display:table;
+}
+
+#welcome {
+    height: 100vh;
+    text-align:center; 
+}
+
+#welcome .title {
+    float: right;
+    width: 65%;
+}
+
+#welcome h2 {
+    font-size: 20px;
+    color: #1d2b74;
+    margin: auto;
+    line-height: 1.5;
+}
+
+#welcome .scroll-down {
+    display: none;
+}
+
+#welcome .box-center {
+    display:table-cell; 
+    vertical-align:middle;
+}
+
+#welcome .image-logo {
+    width: 65%;
+    padding: 1em 15%;
+    margin-left: 35%;
+}
+
+#welcome .image-logo img {
+    width: 100%;
+}
+
+#first-section {
+    background-color: #4a5263;
+    border-top: 15px solid #3a404d;
+    padding: 4em 0;
+}
+
+#first-section h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#first-section h3 span {
+    position: relative;
+}
+
+#first-section h3 span::before {
+    content: '';
+    position: absolute;
+    left: 25%;
+    bottom: -15px;
+    height: 1px;
+    width: 50%;
+    margin-top: 4em;
+    border-bottom: 2px solid #00954b;
+}
+
+#first-section .content {
+    margin-top: 2em;
+    color: #fff;
+}
+
+#first-section .content div {
+    padding: 1em;
+}
+
+#second-section {
+    background-image: url('../images/flight-mountains-sky-flying.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#second-section h3 {
+    text-align: center;
+    padding: 3em 0;
+}
+
+#second-section .diamonds {
+    text-align: center;
+    padding: 5em 0;
+}
+
+#second-section .diamond {
+    transform: rotate(45deg);
+    display: inline-block;  
+    width: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10em;
+    border: 5px solid black;
+}
+
+#second-section .diamond h4,
+#second-section .diamond h5 {
+    text-align: center;
+}
+
+#second-section .diamond .content {
+    transform: rotate(-45deg);
+}
+
+#second-section .diamond:nth-child(even) {
+    margin-top: 0;
+    margin-right: 0em;
+    vertical-align: top;
+    margin-bottom: 5em;
+}
+
+#third-section {
+    background-color: #212526;
+    border-top: 15px solid #364156;
+    padding: 4em 0 20px  0;
+    height: auto;
+}
+
+#third-section h3 {
+    color: #3a83b6;
+    margin-bottom: 1em;
+}
+
+#third-section h3 span {
+    position: relative;
+}
+
+#third-section h3 span::before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    height: 1px;
+    width: 50%;
+    margin-top: 4em;
+    border-bottom: 2px solid #00954b;
+}
+
+#third-section .total {
+    display: flex;
+}
+
+#third-section .content {
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    overflow: visible;
+    height: auto;
+    padding-bottom: 3em;
+}
+
+#third-section .content div {
+    padding: 1em;
+}
+
+#third-section .contact-form {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 29%;
+    display: none;
+    vertical-align: top;
+}
+
+#third-section .image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 29%;
+    display: none;
+    vertical-align: top;
+}
+
+#contact {
+    background-image: url('../images/backgroundcontact.png');
+    background-attachment: fixed;
+    background-size: auto 100%;
+    width: 100%;
+    padding: 10vh 0;
+    position: relative;
+}
+
+#contact h3 {
+    text-align: center;
+    color: #494949;
+    margin-bottom: 2em;
+}
+
+#contact h3 span {
+    position: relative;
+}
+
+#contact h3 span::before {
+    content: '';
+    position: absolute;
+    left: 25%;
+    bottom: -15px;
+    height: 1px;
+    width: 50%;
+    margin-top: 4vh;
+    border-bottom: 2px solid #00954b;
+}
+
+#contact .contact-box {
+    background: rgba(0, 0, 0, 0.68);
+    color: #fff;
+    padding: 1em;
+    margin:2em auto;
+    width: 90%;
+    margin-bottom: 2em;
+}
+
+#contact .info {
+    margin-top: 2vh;
+}
+
+#contact .info .contact-form {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#contact .info .contact-form input {
+    width: 100%;
+    color: #000;
+    padding: 0.5em 1em;
+}
+
+#contact .info .contact-form input.white-color-text {
+    color: #fff;
+}
+
+#contact .info .contact-form img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contact .info .contact-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#contact .info .contact-form textarea {
+    width: 100%;
+    color: #000;
+    padding: 0.5em 1em;
+}
+
+#contact .info .contact-info div {
+    margin-bottom: 1em;
+}
+
+#contact .info .contact-info div span {
+    padding-left: 1em;
+}
+
+@media screen and (min-width: 768px) {
+    #welcome h2 {
+        font-size: 2.618em;;
+    }
+    #welcome .title {
+        width: 50%;
+    }
+    #welcome .image-logo {
+        padding: 1em 5em;
+        width: 50%;
+        margin-left: 50%;
+    }
+    #welcome .image-logo img {
+        width: 50%;
+    }
+    #first-section .content {
+        column-count: 2;
+    }
+    #third-section .content {
+        width: 70%;
+    }
+    #third-section .contact-form {
+        display: inline-block;
+    }
+    #third-section .image {
+        display: inline-block;
+    }
+    #contact .info .contact-info {
+        padding: 0em 2em;
+    }
+    #contact .info .contact-form {
+        padding: 1em 2em;
+    }
+    #contact .contact-box {
+        width: 75%;
+    }
+    #contact .info .contact-info div {
+        display: inline-block;
+        margin: 1em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .top-background {
+        background-image: url('../images/backgroundhpv3.jpg');
+        background-position: initial;
+    }    
+    #welcome .image-logo {
+        display: none;
+    }
+    #welcome .scroll-down {
+        display: block;
+        margin-top: 1em;
+    }
+    #welcome .scroll-down img {
+        width: 50px;
+    }
+    #contact {
+        background-size: cover;
+    }
+    #contact .text {
+        padding: 1em 2em;
+    }
+    #contact .info .contact-form input {
+        width: 100%;
+        display: inline-block;
+    }
+    #contact .info .contact-form textarea {
+        width: 100%;
+        max-height: 90px;
+    }
+    #contact .info p {
+        display: inline-block;
+        width: 33%;
+        padding: 1%;
+        vertical-align: top;
+    }
+    #contact .info p:nth-child(5) {
+        width: 100%;
+    }
+    #contact .info p:last-child {
+        display: block;
+        width: 100%;
+    }
+}

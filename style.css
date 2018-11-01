@@ -1,0 +1,69 @@
+/*
+Theme Name: Grimm-Geldanlage
+Author: Marica Sorin
+Description: Grimm-Geldanlage theme
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+/*
+Color pallette:
+#fff - white
+#1d2b74 - blue
+#4a5263 - grey
+#1c2123 - black
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans:400,600');
+
+body {
+    position: relative;
+    font-size: 16px;
+    line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3.125em;
+    }
+    h2 {
+        font-size: 2.618em;
+    }
+    h3 {
+        font-size: 1.931em;
+    }
+    h4 {
+        font-size: 1.618em;
+    }
+    h5 {
+        font-size: 1.194em;
+    }
+    h6 {
+        font-size: 1em;
+    }
+}
+
+#wpadminbar {
+    display: none;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.blue-text {
+    color: #3e92cc;
+}
